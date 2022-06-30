@@ -307,12 +307,11 @@ header {
   justify-content: space-between;
   gap: 1rem;
 }
-.footer-container .logo{
-    color: var (var(--bg-color);
-margin-bottom: 1rem;
+.footer-container .logo {
+  color: var(--bg-color);
+  margin-bottom: 1rem;
 }
-.footer-container .footer-box{
-    display: flex;
-    flex-direction: column;
-
+.footer-container .footer-box {
+  display: flex;
+  flex-direction: column;
 }
