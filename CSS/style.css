@@ -77,10 +77,11 @@ header {
 #search-icon {
   font-size: 24px;
   cursor: pointer;
+  color: var(--bg-color);
 }
 .search-box {
   position: absolute;
-  top: 110px;
+  top: 110%;
   right: 0;
   left: 0;
   background: var(--bg-color);
@@ -108,7 +109,8 @@ header {
   min-height: 640px;
   display: flex;
   align-items: center;
-  background: url("/img/repairman.png");
+  background: url("/img/tire.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center left;
 }
