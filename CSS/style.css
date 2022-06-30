@@ -179,7 +179,7 @@ header {
   font-size: 1rem;
   background: var(--bg-color);
   padding: 8px;
-  border-radius: 0, 5rem;
+  border-radius: 0.5rem;
 }
 .cars-container .box:hover h2 {
   background: var(--main-color);
