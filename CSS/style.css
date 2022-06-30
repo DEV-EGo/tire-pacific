@@ -292,8 +292,27 @@ header {
 .blog-container .box .blog-btn .bx {
   font-size: 20px;
 }
-blog-container .box .blog-btn:hover {
+.blog-container .box .blog-btn:hover {
   color: var(--main-color);
   column-gap: 0.7rem;
   transition: 0.4s;
+}
+.footer {
+  background: var(--text-color);
+  color: #f6f6f6;
+  border-top: 2px solid var(--main-color);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.footer-container .logo{
+    color: var (var(--bg-color);
+margin-bottom: 1rem;
+}
+.footer-container .footer-box{
+    display: flex;
+    flex-direction: column;
+
 }
