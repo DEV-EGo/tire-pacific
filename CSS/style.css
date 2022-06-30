@@ -134,3 +134,30 @@ header {
   color: var(--bg-color);
   font: weight 400;
 }
+.btn:hover {
+  background: #fd052f;
+}
+.heading {
+  text-align: center;
+}
+.heading span {
+  font-weight: 500;
+  color: var(--main-color);
+}
+.heading p {
+  font: 0.938rem;
+  font-weight: 300;
+}
+.cars-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.cars-container .box {
+  flex: 1 1 17rem;
+  position: relative;
+  height: 200px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
