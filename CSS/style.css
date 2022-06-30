@@ -232,10 +232,26 @@ header {
 }
 .parts-container .box h3 {
   font-size: 1.1rem;
-  font: weight 600;
+  font-weight: 600;
 }
 .parts-container .box span {
   font-size: 1.1rem;
   font: weight 600;
   color: var(--main-color);
+}
+.parts-container .box .bx {
+  color: var(--main-color);
+  margin: 0.8rem 0;
+}
+.parts-container .box .btn {
+  max-width: 120px;
+}
+.parts-container .box .details {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 1.8rem;
+  right: 1rem;
+  font-size: 1rem;
+  color: var(--text-color);
 }
