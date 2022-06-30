@@ -325,10 +325,18 @@ header {
   margin-right: 1rem;
 }
 .social a:hover {
-  color: var(--bg-color);
+  color: var(--main-color);
 }
 .footer-box h3 {
   font-size: 1.1rem;
   font-weight: 400;
   margin-bottom: 1rem;
+}
+.footer-box a,
+.footer-box p {
+  color: #818181;
+  margin-bottom: 10px;
+}
+.footer-box a:hover {
+  color: var(--main-color);
 }
