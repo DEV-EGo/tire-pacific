@@ -16,6 +16,11 @@
   --text-color: #020102;
   --bg-color: #fff;
 }
+/* custom scroll*/
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background: transparent;
+}
 section {
   padding: 4rem 0 2rem;
 }
@@ -38,18 +43,14 @@ header {
   left: 0;
   z-index: 100;
 }
-.header {
-  display: block;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
-.header.shadow {
+
+header.shadow {
   background: var(--bg-color);
-  box-shadow: 2px 4px 4px rgb(15 54 55 / 10%);
-  transition: 0.5s;
+  box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
+  transition: 0.5s ease;
+}
+header.shadow #search-icon {
+  color: var(--text-color);
 }
 .nav {
   display: flex;
