@@ -38,13 +38,25 @@ header {
   left: 0;
   z-index: 100;
 }
+.header {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.header.shadow {
+  background: var(--bg-color);
+  box-shadow: 2px 4px 4px rgb(15 54 55 / 10%);
+  transition: 0.5s;
+}
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 35px;
 }
-
 #menu-icon {
   font-size: 24px;
   cursor: pointer;
