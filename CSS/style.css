@@ -461,4 +461,10 @@ header.shadow #search-icon {
   .home {
     min-height: 500px;
   }
+  .home-text h1 {
+    font-size: 2rem;
+  }
+  .home-text p br {
+    display: contents;
+  }
 }
