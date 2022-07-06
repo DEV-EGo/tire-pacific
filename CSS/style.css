@@ -421,7 +421,7 @@ header.shadow #search-icon {
   .navbar .active {
     border-bottom: none;
     background: var(--main-color);
-    color: var (--bg-color);
+    color: var(--bg-color);
   }
   .navbar.active {
     clip-path: circle(144% at 0% 0%);
