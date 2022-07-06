@@ -426,4 +426,25 @@ header.shadow #search-icon {
   .navbar.active {
     clip-path: circle(144% at 0% 0%);
   }
+
+  .blog-container .box {
+    padding: 4px;
+  }
+}
+@media (max-width: 727px) {
+  .heading span {
+    font-size: 0.9rem;
+  }
+  .heading h2 {
+    font-size: 1.4rem;
+  }
+  .about {
+    flex-direction: column-reverse;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-text h2 {
+    font-size: 1.4rem;
+  }
 }
