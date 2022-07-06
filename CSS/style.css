@@ -448,3 +448,17 @@ header.shadow #search-icon {
     font-size: 1.4rem;
   }
 }
+@media (max-width: 607) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 360px) {
+  .search-box input {
+    padding: 11px;
+  }
+  .home {
+    min-height: 500px;
+  }
+}
