@@ -370,6 +370,8 @@ header.shadow #search-icon {
   color: var(--bg-color);
   background: var(--text-color);
 }
+/* Email */
+
 /* Mobile responsive */
 @media (max-width: 1080px) {
   .container {
